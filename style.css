@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.h1{
+       text-align: center;
+}
+.logo{
+       width: 20%;
+     /*  background-color: black;*/      
+ }  
+.logo img{
+       width: 33%;
+       border: 3px solid white;
+       border-radius: 60px;
+       background-color: black;
+ } 
+.navbar{
+       display: flex;
+       position: sticky;
+  }
+.nav-list{
+        /* background-color: black;*/
+         width: 50%;
+         display:flex;
+         text-align: center;
+  }
+.nav-list li{
+         list-style: none;
+  }
+.nav-list li a{
+         text-decoration: none;
+         color: black;
+         padding: 20px;
+         font-size: 27px;
+        border-radius:5px;
+  }
+.nav-list li a:hover{
+         color: rgb(241, 63, 63);
+         cursor: pointer;
+  }
+.right-nav{
+    /*  background-color: black;*/
+      width: 50%;
+      text-align: right;
+      padding: 0px 23px;
+      
+}
+#search{
+       padding: 7px;
+       font-size: 17px;
+       border:2px solid rgb(8, 8, 8);
+       border-radius: 10px;
+}
+.background{
+       background-image: url("bgt.jpg");
+       background-blend-mode: darken;
+       color: black;
+       background-size: cover;
+       max-height: 100vh;
+       max-width: 1oovh;
+}
+.p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+.firstsection{
+       height: 100vh;
+}   
+.box-main {
+       display: flex;
+       align-items: center;
+       color: rgba(6, 4, 14, 0.9);
+       margin: auto;
+       height: 80%;
+}
+.firsthalf {
+       width: 80%;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       justify-content: flex-start;
+       align-content: center;
+       flex-wrap: wrap;
+} 
+.text-big{
+       font-size: 40px;
+}
+.text-small{
+       font-size: 20px;
+}
+.btn{
+       padding: 8px 20px;
+       margin:7px 0px;
+       border: 2px solid rgb(26, 20, 20);
+       border-radius: 8px;
+       background: none;
+       color: rgb(20, 19, 19);
+       cursor: pointer;
+}
+.section{
+       height: 180px;
+       align-items: center;
+       margin:auto;
+       justify-content: center;
+       text-align: center;
+       display:flex;
+       padding: 2px 4px;
+} 
+.btn { 
+       padding: 8px 20px;
+       margin:7px 0px;
+       border: 2px solid rgb(20, 20, 20);
+       border-radius: 8px;
+       background: none;
+       color: rgb(20, 19, 19);
+       cursor: pointer;
+       background-color: rgb(238, 238, 200);
+ } 
+ .btn:hover{
+       cursor: pointer;
+       background-color: rgb(15, 15, 15);
+       color: white;
+}
+.secondsection{
+       background-color:#be4f4f;
+       display:flex;
+       justify-content: center;
+}
+.text-center{
+       text-align: center;
+       padding: 35px;
+       font-weight: bold;
+}
+.form-group{
+       width: 100%;
+       padding: 0.5rem;
+       border-radius: 60px;
+       font-size: 1.1rem;
+}
+.form-textarea{
+       width: 100%;
+       padding: 0.5rem;
+       border-radius: 50px;
+       font-size: 1.1rem;
+}
+.blog{
+       display: flex;
+}
+.text{
+       font-size: large;
+       font-weight: bold;
+}
+.btn-dark{
+       padding: 8px 20px;
+       margin:7px 0px;
+       border: 2px solid rgb(20, 20, 20);
+       border-radius: 8px;
+       background: none;
+       color: rgb(20, 19, 19);
+       cursor: pointer;
+       background-color:coral;
+} 
+.btn-dark:hover{
+       background-color: rgb(116, 109, 107);
+       color: white;
+}
+.right-blog{
+       text-align: center;
+       justify-content: right;
+       width: 33%;
+       
+}
+.center-blog{
+         text-align: center;
+         justify-content: center;
+         width: 33%;
+}
+.left-blog{
+       text-align: center;
+       justify-content: left;
+       width: 33%;
+}
+
+#contact{
+       position: relative;
+   }
+   #contact::before{
+       content: "";
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       z-index: -1;
+       opacity: 0.9;
+       background: url("bg.jpg") no-repeat center center/cover;
+   }
+   #contact-box{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding-bottom: 34px;
+   }
+   #contact-box form{
+       width: 40%;
+   
+   }
+   #contact-box label{
+       font-size: 1.3rem;
+   }
+   
+   #contact-box input,
+   #contact-box textarea{
+       width: 100%;
+       padding: 0.5rem;
+       border-radius: 9px;
+       font-size: 1.1rem;
+   }
+   footer{
+       background: black;
+       color: white;
+       padding: 9px 20px;
+   
+   }
